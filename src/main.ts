@@ -9,5 +9,5 @@ declare global {
 }
 
 window.stupidFunction = (page) => {
-  location.href = `${page}/`;
+  location.href = `/pages/${page}/`;
 };
