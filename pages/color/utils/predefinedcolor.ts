@@ -1,4 +1,4 @@
-import getRandomNumber from "./randomNumber";
+import getRandomNumber from "../../../utils/randomNumber.ts";
 
 type Colors = "green" | "red" | "rgba(133,122,200)" | "#f15025";
 
