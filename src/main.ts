@@ -1,13 +1,8 @@
 import "./style.css";
+import type { CustomWindow, Pages } from "./types";
 
-type Pages = "color";
+declare let window: CustomWindow;
 
-declare global {
-  interface Window {
-    stupidFunction: (page: Pages) => void;
-  }
-}
-
-window.stupidFunction = (page) => {
+window.stupidFunction = (page: Pages) => {
   location.href = `/pages/${page}/`;
 };
