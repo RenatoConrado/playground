@@ -1,7 +1,9 @@
 export type Pages =
   | "color"
   | "reviews"
-  | "nav";
+  | "nav"
+  | "modal"
+  | "questions";
 
 /** {@link https://stackoverflow.com/a/45352250 StackOverflow reference} */
 export interface CustomWindow extends Window {
