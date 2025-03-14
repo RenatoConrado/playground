@@ -13,14 +13,14 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 buttons.prevButton.addEventListener("click", () => {
-  currentItem = (currentItem < FirstItem)
+  currentItem = (currentItem <= FirstItem)
     ? LastItem
     : --currentItem;
   renderProfile(profiles, currentItem);
 });
 
 buttons.nextButton.addEventListener("click", () => {
-  currentItem = (currentItem > LastItem)
+  currentItem = (currentItem >= LastItem)
     ? FirstItem
     : ++currentItem;
   renderProfile(profiles, currentItem);
