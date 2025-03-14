@@ -3,7 +3,8 @@ export type Pages =
   | "reviews"
   | "nav"
   | "modal"
-  | "questions";
+  | "questions"
+  | "menu";
 
 /** {@link https://stackoverflow.com/a/45352250 StackOverflow reference} */
 export interface CustomWindow extends Window {
