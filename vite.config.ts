@@ -17,6 +17,7 @@ export default defineConfig({
         modal: resolve(__dirname, "pages/modal/index.html"),
         questions: resolve(__dirname, "pages/questions/index.html"),
         menu: resolve(__dirname, "pages/menu/index.html"),
+        video: resolve(__dirname, "pages/video/index.html"),
       }
     }
   }
