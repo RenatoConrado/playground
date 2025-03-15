@@ -8,7 +8,7 @@ export type Item = {
 };
 
 export default function Card(item: Item): string {
-  const price= item.price;
+  const price = item.price;
   const img = DOMPurify.sanitize(item.img);
   const title = DOMPurify.sanitize(item.title);
   const desc = DOMPurify.sanitize(item.desc);

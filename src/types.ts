@@ -4,7 +4,8 @@ export type Pages =
   | "nav"
   | "modal"
   | "questions"
-  | "menu";
+  | "menu"
+  | "video";
 
 /** {@link https://stackoverflow.com/a/45352250 StackOverflow reference} */
 export interface CustomWindow extends Window {

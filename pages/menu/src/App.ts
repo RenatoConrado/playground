@@ -9,7 +9,7 @@ export default function App(): string {
       <div class="underline"></div>
     </div>
     <div class="section-center">
-      ${ menu.map(item => Card(item)).join("") }
+      ${menu.map(item => Card(item)).join("")}
     </div>
   </section>
 `;
