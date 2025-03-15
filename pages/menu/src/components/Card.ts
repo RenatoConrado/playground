@@ -15,7 +15,7 @@ export default function Card(item: Item): string {
 
   return /* html */`
   <article class="menu-item">
-    <img src="${img}" alt="Image of ${title}" class="photo" />
+    <img src="/playground/${img}" alt="Image of ${title}" class="photo" />
     <div class="item-info">
       <header>
         <h4>${title}</h4>
